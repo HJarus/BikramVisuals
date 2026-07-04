@@ -18,7 +18,6 @@ const images = [
 ]
 
 const RADIUS = 5
-const ITEM_HEIGHT = 2.6
 
 function Cylinder() {
   const group = useRef<THREE.Group>(null)
