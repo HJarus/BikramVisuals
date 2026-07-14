@@ -81,7 +81,7 @@ export default function Narrative() {
           <div ref={imageRef} className="section-fade-in relative">
             <div className="relative aspect-[16/10] lg:aspect-[16/12] overflow-hidden rounded-sm">
               <img
-                src="/images/narrative.jpg"
+                src="./images/narrative.jpg"
                 alt="Professional photographer capturing golden hour moments in Nepal"
                 className="w-full h-full object-cover"
                 loading="lazy"
