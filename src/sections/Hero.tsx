@@ -380,7 +380,7 @@ export default function Hero() {
 
     // Load reveal image
     const loader = new THREE.TextureLoader()
-    loader.load('/images/hero-reveal-1.jpg', (texture) => {
+    loader.load('./images/hero-reveal-1.jpg', (texture) => {
       texture.minFilter = THREE.LinearFilter
       texture.magFilter = THREE.LinearFilter
       revealTextureRef.current = texture
