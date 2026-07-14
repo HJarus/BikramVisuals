@@ -346,7 +346,7 @@ export default function Hero() {
   useEffect(() => {
     // Create video element
     const video = document.createElement('video')
-    video.src = '/videos/hero-bg.mp4'
+    video.src = './videos/hero-bg.mp4'
     video.loop = true
     video.muted = true
     video.playsInline = true
@@ -355,7 +355,7 @@ export default function Hero() {
 
     const video2 = document.createElement('video')
 
-    video2.src = '/videos/hero-bg.mp4'
+    video2.src = './videos/hero-bg.mp4'
     video2.loop = true
     video2.muted = true
     video2.playsInline = true
